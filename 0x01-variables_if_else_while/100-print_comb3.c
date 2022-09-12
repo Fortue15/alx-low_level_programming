@@ -1,19 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * 
- *
- *
- *
- *
- *
- */
+* main - a program that prints all possible different combinations of two digits
+*Description: print a program that "prints all possible different combinations of two digits"
+*/
 int main()
 {
 	int n1 = 0, n2;
 	while (n <= 9)
 	{
-
 		n2 = 0;
 		while (n2 <= 9)
 		{
@@ -31,7 +26,7 @@ int main()
 		++n2;
 	}
 	++n1;
-
+	}
 	putchar('\n');
 	return 0;
 }	
