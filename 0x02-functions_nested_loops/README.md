@@ -1,1 +1,1 @@
-Write a function that adds two integers and returns the result
+Write a function that prints the sign of a number
