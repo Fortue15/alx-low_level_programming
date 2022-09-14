@@ -7,15 +7,16 @@
  */
 int print_sign(int n)
 {
-	if (n > o)
+	if (n > 0)
 	{
-	_putcher('+');
+	_putchar('+');
 	return (i);
-}
+	}
 	else if (n < 0)
 	{
 	_putchar('_');
-	return (-i);
+	return (i);
+	}
 	else
 	{
 	_putchar('0');
