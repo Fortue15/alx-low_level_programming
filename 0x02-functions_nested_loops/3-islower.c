@@ -1,4 +1,4 @@
-#include 'main.h'
+#include "main.h"
 
 /**
  * _islower - function to check for lowecase character
@@ -13,4 +13,4 @@ int _islower(int c);
 	}
 	else
 		return (0);
-}	
+}
