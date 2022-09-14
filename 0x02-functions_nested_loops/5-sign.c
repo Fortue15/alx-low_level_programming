@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 
 /**
  * print_sign - function to check for a sign of a number
@@ -22,4 +22,3 @@ int print_sign(int n)
 	return (0);
 	}
 }
-	
