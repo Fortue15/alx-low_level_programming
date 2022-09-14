@@ -11,8 +11,8 @@ int print_sign(int n)
 	{
 	_putchar('+');
 	return (i);
+}
 
-	}
 	else if (n < 0)
 	{
 	_putchar('_');
