@@ -5,6 +5,7 @@
  * @c: character to be tested
  * Return: 1 whether it is or, otherwise
  */
+
 int _isupper(int c)
 {
 	if ((c >= 'A') && (c <= 'z'))
