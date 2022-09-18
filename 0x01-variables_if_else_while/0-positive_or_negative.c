@@ -1,9 +1,8 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h> 
+#include <stdio.h>
 /**
 * main - print if the number is positive,zero, or negative
-*
 * Discription: using the main function
 * this program prints "programming is positive, zero, or negative"
 * Return: 0
@@ -11,21 +10,23 @@
 int main(void)
 {
 int n;
+int l;
 
-srand (time(0));
+srand(time(0));
 n = rand() - RAND_MAX / 2;
- /* your code goes there */
-if (n > 0)
+l = n % 10;
+
+if (1 > 5)
 {
-	printf("%i is positive\n", n);
+printf("Last digit of %d and is greater than 5\n", n, l);
 }
 else if (n == 0)
 {
-	printf("%i is zero\n", n);
+printf("Last digit of %d is 0\n", n, l);
 }
-else if (n < 0)
+else
 {
- 	printf("%i is negative\n", n);
+printf("Last digit of %d is less than 6 and not 0\n", n, l);
 }
-return(0);
+return (0);
 }
