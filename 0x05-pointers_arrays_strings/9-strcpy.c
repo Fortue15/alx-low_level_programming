@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * _strcpy - copy paste string
+ * *_strcpy - copy paste string
  * @dest: destination
  * @src: source
- * Ruturn: destination
+ * Return: destination
  */
 
-char _strcpy(char *dest, char *src)
+char *_strcpy(char *dest, char *src)
 {
 	int inc = 0;
 
