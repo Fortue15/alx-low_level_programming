@@ -1,7 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
 #include <stdio.h>
-
 /**
  * void prototypes()
  * int prototypes()
@@ -19,5 +18,5 @@ char *cap_string(char *);
 char *leet(char *);
 char *rot13(char *);
 char *infinite_add(char *n1, char *n2, char *r, int size_r);
-char *add_string(char *n1, char *n2, char *r, int r _index);
+
 #endif/*MAIN_H*/
