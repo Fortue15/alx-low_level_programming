@@ -6,7 +6,7 @@
  * Return: a pointer to the changed string
  */
 
-char *cap_string(char *)
+char *cap_string(char *str)
 {
 	int index = 0;
 
@@ -25,6 +25,8 @@ char *cap_string(char *)
 		    str[index - l] == '"' ||
 		    str[index - l] == '(' ||
 		    str[index - l] == ')' ||
+		    str[index - l] == '{' ||
+		    str[index - l] == '}' ||
 		    index == 0)
 			str[index] -=32;
 
