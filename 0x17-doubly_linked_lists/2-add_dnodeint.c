@@ -6,7 +6,6 @@
  *
  * @head: head of the list
  * @n: value of the element
- *
  * Return: the address of the new element
  */
 
