@@ -1,21 +1,17 @@
 #include <stdio.h>
+
 /**
- * main - print if the alphabet in lowercase, and then in uppercase
- *
- * Description: using the main fuction
- * this program prints "programming is lowercase, then in uppercase"
- * Return: 0
+ * main - Entry point
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-char ch;
-for (ch = 'a'; ch <= 'z'; ch++)
-{
-	putchar(ch);
+	char c;
+
+	for (c = 'a'; c <= 'z'; c++)
+		putchar(c);
+	for (c = 'A'; c <= 'Z'; c++)
+		putchar(c);
+	putchar('\n');
+	return (0);
 }
-for (ch = 'A'; ch <= 'Z'; ch++)
-{
-	putchar(ch);
-}
-putchar('\n');
-return (0);
